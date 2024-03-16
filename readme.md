@@ -11,20 +11,20 @@ python generate.py [year]
 Output (for 2024):
 
 ```
-**January**
+### January
 1:
 2:
 3:
 4:
 5:
 
-**February**
+### February
 6:
 7:
 8:
 9:
 
-**March**
+### March
 10:
 11:
 12:
