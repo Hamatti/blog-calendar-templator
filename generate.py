@@ -9,6 +9,8 @@ def generate(year):
         print(f'**{calendar.month_name[month]}**')
         for week in cal.monthdatescalendar(year, month):
             wednesday = week[2]
+            if wednesday.month == 12 and month == 1:
+                week_number += 1
             if wednesday.month != month:
                 continue
             print(f'{week_number}: ')
